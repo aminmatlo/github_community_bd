@@ -103,6 +103,9 @@ jobs:
       - name: Start Scripts
         run: python run.py &
         
+      - name: Start Scripts
+        run: python run2.py &
+        
       - name: keep alive
         id: check_runs
         run: |
